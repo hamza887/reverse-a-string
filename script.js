@@ -1,9 +1,10 @@
 
 const reverseastring =(rs)=>{
-      const splitstring= rs.split('');
-      const changeme=splitstring.reverse();
-      const joinarray=changeme.join('')
-      console.log(joinarray)
+    //   const splitstring= rs.split('');
+    //   const changeme=splitstring.reverse();
+    //   const joinarray=changeme.join('')
+    //   console.log(joinarray)
+      return rs.split('').reverse().join('');
 }
 //console.log(splitstring);
-reverseastring('hello');
+console.log(reverseastring('hamza'));
